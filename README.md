@@ -1,4 +1,4 @@
-# A-vs-Dijkstra
+# AStar-Dijkstra
 Comparison between A* and Dijkstra pathfinding algorithms
 
 I wrote this code for a talk on pathfinding, that I gave in a computer science lesson.
