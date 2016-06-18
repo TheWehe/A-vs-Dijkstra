@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A*</title>
+        <meta charset="utf-8">
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <h1>Pathfinding</h1>
+        <table>
+            <tr>
+                <td>
+                    <h2>A*</h2>
+                </td>
+                <td>
+                    <h2>Dijkstra</h2>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <canvas id="aStarCanvas" class="canvas" width="500" height="500"></canvas>
+                </td>
+                <td>
+                    <canvas id="dijkstraCanvas" class="canvas" width="500"height="500"></canvas>
+                </td>
+            </tr>
+        
+        </table>
+        <br>
+        
+        <select id="fieldType">
+            <option value="wall">Wall</option>
+            <option value="start">Start</option>
+            <option value="goal">Goal</option>
+        </select>
+        <br>
+        <button id="start">Start</button>
+        <button id="step">Step</button>
+        <button id="finish">Finish</button>
+        <button id="reset">Reset</button>
+        <label id="result"></label>
+        <script src="script.js"></script>
+    </body>
+</html>
